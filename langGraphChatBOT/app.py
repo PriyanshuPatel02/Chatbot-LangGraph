@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 
 # ✅ Set your Groq API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "**********************"
 os.environ["OPENAI_BASE_URL"] = "https://api.groq.com/openai/v1"
 
 client = OpenAI(
@@ -32,3 +32,4 @@ print(response.choices[0].message.content)
 # system	Set karta hai behavior ("You're a polite teacher")
 # user	User ke messages
 # assistant	Assistant ke purane responses for memory (very useful!)
+
